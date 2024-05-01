@@ -8,8 +8,8 @@ const CourseInfo = (props) => {
   const exo3 = 13
     return (
       <>
-      <Header title={props.title}/>
-      <Content part1={props.part1} exo1={props.exo1} part2={props.part2} exo2={props.exo2} part3={props.part3} exo3={props.exo3} />
+      <Header title={title}/>
+      <Content part1={part1} exo1={exo1} part2={part2} exo2={exo2} part3={part3} exo3={exo3} />
     </>
   )
 }
@@ -30,7 +30,7 @@ const Header = (props) => {
 }
 const Part = (props) => {
   return (
-    <h3>{props.p1} <span>Nombre d'exercices : {props.ex1}</span></h3>
+    <h3>{props.p1}   ---    <span>Nombre d'exercices : {props.ex1}</span></h3>
   )
 }
 

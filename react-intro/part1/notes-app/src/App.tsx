@@ -10,7 +10,7 @@ const App = () => {
     <Hello name='Smith'/>
     <Goodbye />
     <Counter />
-    {/* <CourseInfo /> */}
+    <CourseInfo />
     </>
   )
 }
