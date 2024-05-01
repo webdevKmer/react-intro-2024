@@ -1,9 +1,25 @@
-import React from 'react'
+import Hello from "./components/Hello"
+import CourseInfo from "./components/CourseInfo"
+import Counter from "./components/Counter"
 
 const App = () => {
+  
   return (
-    <h1>Hello World!</h1>
+    <>
+    <Hello name='John'/>
+    <Hello name='Smith'/>
+    <Goodbye />
+    <Counter />
+    {/* <CourseInfo /> */}
+    </>
+  )
+}
+
+const Goodbye = () => {
+  return (
+    <h2>Goobye Everybody!</h2>
   )
 }
 
 export default App
+
