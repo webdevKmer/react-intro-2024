@@ -4,11 +4,17 @@ import Counter from "./components/Counter"
 import LeftAndRightClick from "./components/LeftAndRightClick"
 import Feedback from "./components/Feedback"
 import AuthorVote from "./components/AuthorVote"
+import NoteApp from "./components/NoteApp"
+import CoursesApp from "./components/CoursesApp"
 
 const App = () => {
   
   return (
     <>
+    <CoursesApp />
+    <hr />
+    <NoteApp />
+    <hr />
     <AuthorVote />
     <hr />
     <Feedback />
