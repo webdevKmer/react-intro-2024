@@ -22,7 +22,6 @@ const Content = (props) => {
     </>
   )
 }
-
 const Header = (props) => {
   return (
     <h1>{props.title}</h1>
@@ -30,9 +29,17 @@ const Header = (props) => {
 }
 const Part = (props) => {
   return (
-    <h3>{props.p1}   ---    <span>Nombre d'exercices : {props.ex1}</span></h3>
+    <h1>{props.part}</h1>
   )
 }
+const Content = () => {
+  return (
+    <h1>{props.title}</h1>
+  )
+}
+
+
+
 
 
 export default CourseInfo
